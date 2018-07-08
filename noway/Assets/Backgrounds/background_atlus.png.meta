@@ -5,6 +5,7 @@ TextureImporter:
     21300000: logo
     21300002: large_can
     21300004: smol_can
+    21300006: goal
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -99,12 +100,12 @@ TextureImporter:
       name: logo
       rect:
         serializedVersion: 2
-        x: 57
-        y: 985
-        width: 679
-        height: 363
+        x: 60
+        y: 1095
+        width: 668
+        height: 185
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -124,7 +125,7 @@ TextureImporter:
         width: 590
         height: 1392
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -144,13 +145,33 @@ TextureImporter:
         width: 725
         height: 691
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 36978585b4f83194eb541fd8219ada62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goal
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 72
+        width: 536
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d8e82786115fd43baad202ddb1068e
       vertices: []
       indices: 
       edges: []
