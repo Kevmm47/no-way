@@ -1,0 +1,156 @@
+
+skeleton.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+_0000_l-eye-highlights
+  rotate: false
+  xy: 2, 2
+  size: 646, 702
+  orig: 646, 702
+  offset: 0, 0
+  index: -1
+
+skeleton2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+_0001_l-eye
+  rotate: false
+  xy: 2, 2
+  size: 646, 702
+  orig: 646, 702
+  offset: 0, 0
+  index: -1
+
+skeleton3.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+_0002_r-eye-highlights
+  rotate: false
+  xy: 2, 2
+  size: 646, 702
+  orig: 646, 702
+  offset: 0, 0
+  index: -1
+
+skeleton4.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+_0003_r-eye
+  rotate: false
+  xy: 2, 2
+  size: 646, 702
+  orig: 646, 702
+  offset: 0, 0
+  index: -1
+
+skeleton5.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+_0004_tie
+  rotate: false
+  xy: 2, 2
+  size: 646, 702
+  orig: 646, 702
+  offset: 0, 0
+  index: -1
+
+skeleton6.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+_0005_r-mustashe
+  rotate: false
+  xy: 2, 2
+  size: 646, 702
+  orig: 646, 702
+  offset: 0, 0
+  index: -1
+
+skeleton7.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+_0006_l-mustashe
+  rotate: false
+  xy: 2, 2
+  size: 646, 702
+  orig: 646, 702
+  offset: 0, 0
+  index: -1
+
+skeleton8.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+_0008_Mouth
+  rotate: false
+  xy: 2, 2
+  size: 646, 702
+  orig: 646, 702
+  offset: 0, 0
+  index: -1
+
+skeleton9.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+_0009_Head
+  rotate: false
+  xy: 2, 2
+  size: 646, 702
+  orig: 646, 702
+  offset: 0, 0
+  index: -1
+
+skeleton10.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+_0010_l-hair
+  rotate: false
+  xy: 2, 2
+  size: 646, 702
+  orig: 646, 702
+  offset: 0, 0
+  index: -1
+
+skeleton11.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+_0011_r-hair
+  rotate: false
+  xy: 2, 2
+  size: 646, 702
+  orig: 646, 702
+  offset: 0, 0
+  index: -1
+
+skeleton12.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+_0007_upperlip
+  rotate: false
+  xy: 2, 2
+  size: 646, 702
+  orig: 646, 702
+  offset: 0, 0
+  index: -1
