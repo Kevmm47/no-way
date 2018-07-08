@@ -667,6 +667,17 @@ Prefab:
       propertyPath: m_Name
       value: PringleDaddy
       objectReference: {fileID: 0}
+    - target: {fileID: 114820112551160434, guid: af65a1a8cfe936e4589af8001e5650d4,
+        type: 2}
+      propertyPath: destroyEffect
+      value: 
+      objectReference: {fileID: 1188442579061316, guid: 0a3cdc8a4092b354d9b8d73f00b71070,
+        type: 2}
+    - target: {fileID: 114820112551160434, guid: af65a1a8cfe936e4589af8001e5650d4,
+        type: 2}
+      propertyPath: chipCollide
+      value: 
+      objectReference: {fileID: 794570149}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: af65a1a8cfe936e4589af8001e5650d4, type: 2}
   m_IsPrefabParent: 0

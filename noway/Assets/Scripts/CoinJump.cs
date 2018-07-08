@@ -6,6 +6,7 @@ public class CoinJump : MonoBehaviour {
 
 	public float jumpForce = 1000f;
 	public AudioSource chipCollide;
+	public GameObject destroyEffect;
 
 	Rigidbody2D rigidbody;
 	int chapsLayer;
@@ -24,7 +25,10 @@ public class CoinJump : MonoBehaviour {
 			if (chipCollide) {
 				chipCollide.Play(0);
 			}
+			GameObject effect = Instantiate(destroyEffect, col.gameObject.transform.position, Quaternion.identity);
 			Destroy(col.gameObject);
+			// Destroy the effect 1 second after its animation ends
+			Destroy (effect, effect.GetComponent<ParticleSystem>().duration + 1f); 
 		}
     }
 }
