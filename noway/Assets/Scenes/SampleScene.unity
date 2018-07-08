@@ -215,7 +215,7 @@ MonoBehaviour:
   yMargin: 1
   xSmooth: 8
   ySmooth: 8
-  maxXAndY: {x: 0, y: 0}
+  maxXAndY: {x: 20000, y: 20000}
   minXAndY: {x: 0, y: 0}
 --- !u!20 &519420031
 Camera:
