@@ -908,61 +908,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 212152382218138640, guid: af65a1a8cfe936e4589af8001e5650d4,
-        type: 2}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300028, guid: 0581ba27f027cf44d819fab56389536b,
-        type: 3}
-    - target: {fileID: 114026965382161554, guid: af65a1a8cfe936e4589af8001e5650d4,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 58648676036716608, guid: af65a1a8cfe936e4589af8001e5650d4,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 95054711257694484, guid: af65a1a8cfe936e4589af8001e5650d4,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 212152382218138640, guid: af65a1a8cfe936e4589af8001e5650d4,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 61094794139896566, guid: af65a1a8cfe936e4589af8001e5650d4,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 61094794139896566, guid: af65a1a8cfe936e4589af8001e5650d4,
-        type: 2}
-      propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 6.14
-      objectReference: {fileID: 0}
-    - target: {fileID: 61094794139896566, guid: af65a1a8cfe936e4589af8001e5650d4,
-        type: 2}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 6.6400003
-      objectReference: {fileID: 0}
-    - target: {fileID: 4670037785676654, guid: af65a1a8cfe936e4589af8001e5650d4, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -5
-      objectReference: {fileID: 0}
-    - target: {fileID: 61094794139896566, guid: af65a1a8cfe936e4589af8001e5650d4,
-        type: 2}
-      propertyPath: m_Size.y
-      value: 6.36
-      objectReference: {fileID: 0}
-    - target: {fileID: 61094794139896566, guid: af65a1a8cfe936e4589af8001e5650d4,
-        type: 2}
-      propertyPath: m_Size.x
-      value: 5.56
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: af65a1a8cfe936e4589af8001e5650d4, type: 2}
   m_IsPrefabParent: 0
