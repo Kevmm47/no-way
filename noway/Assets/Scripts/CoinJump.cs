@@ -21,6 +21,9 @@ public class CoinJump : MonoBehaviour {
     void OnCollisionEnter2D(Collision2D col)
     {	
 		if (col.gameObject.layer == chapsLayer) {
+			if (rigidbody.velocity.y < 0) {
+				rigidbody.velocity = new Vector2(rigidbody.velocity.x, 0f);
+			}
 			rigidbody.AddForce(new Vector2(0f, jumpForce));
 			if (chipCollide) {
 				chipCollide.Play(0);
