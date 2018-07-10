@@ -22,7 +22,12 @@ public class ChapJump: MonoBehaviour {
 		if (col.gameObject.layer == chapsLayer) {
 			GameController.ChapCollected.Invoke(col.gameObject, col);
 		} else {
-			GameController.ComboBroken.Invoke();
+			ContactPoint2D contact = col.contacts[0];
+			Vector2 pos = contact.point;
+			float y_contact_diff = gameObject.transform.position.y - pos.y;
+			if (y_contact_diff > 0.5f) {
+				GameController.ComboBroken.Invoke();
+			}
 		}
     }
 
