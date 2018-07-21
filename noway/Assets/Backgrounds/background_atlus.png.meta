@@ -9,6 +9,8 @@ TextureImporter:
     21300008: noway
     21300010: can_lid
     21300012: can_chap
+    21300014: tomato
+    21300016: godray
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -104,7 +106,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 37
-        y: 989
+        y: 1460
         width: 749
         height: 291
       alignment: 0
@@ -123,8 +125,8 @@ TextureImporter:
       name: large_can
       rect:
         serializedVersion: 2
-        x: 817
-        y: 52
+        x: 823
+        y: 458
         width: 590
         height: 1392
       alignment: 0
@@ -144,7 +146,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 68
-        y: 40
+        y: 428
         width: 725
         height: 671
       alignment: 0
@@ -163,8 +165,8 @@ TextureImporter:
       name: goal
       rect:
         serializedVersion: 2
-        x: 1469
-        y: 72
+        x: 1475
+        y: 519
         width: 536
         height: 605
       alignment: 0
@@ -184,7 +186,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1592
-        y: 673
+        y: 1144
         width: 478
         height: 613
       alignment: 0
@@ -204,11 +206,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 68
-        y: 1336
+        y: 1783
         width: 641
-        height: 159
+        height: 153
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -223,10 +225,30 @@ TextureImporter:
       name: can_chap
       rect:
         serializedVersion: 2
-        x: 176
-        y: 719
+        x: 188
+        y: 1184
         width: 471
         height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532d3fd24428263479c0b09148a30cc1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tomato
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 1388
+        width: 507
+        height: 435
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,7 +256,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 532d3fd24428263479c0b09148a30cc1
+      spriteID: c35bd793985d43a4a8ed62b485576231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: godray
+      rect:
+        serializedVersion: 2
+        x: 2749
+        y: 1316
+        width: 686
+        height: 585
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d765f056575ab74ab817b39f1f4edeb
       vertices: []
       indices: 
       edges: []
