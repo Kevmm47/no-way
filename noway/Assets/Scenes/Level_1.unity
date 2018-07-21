@@ -905,6 +905,7 @@ GameObject:
   m_Component:
   - component: {fileID: 600223969}
   - component: {fileID: 600223970}
+  - component: {fileID: 600223971}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -940,6 +941,20 @@ MonoBehaviour:
   playerSpeechBubble: {fileID: 1540339999}
   chapsCollected: 0
   combo: 0
+--- !u!114 &600223971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 600223968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 996b054332065492fb9ab62a3d7de1a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  restartLevelButton: r
+  secondsToRestart: 2
+  icon: {fileID: 998909096}
 --- !u!1 &632354470
 GameObject:
   m_ObjectHideFlags: 0
@@ -1867,6 +1882,74 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: af65a1a8cfe936e4589af8001e5650d4, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &998909096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 998909097}
+  - component: {fileID: 998909099}
+  - component: {fileID: 998909098}
+  m_Layer: 5
+  m_Name: LevelRestarter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &998909097
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 998909096}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1241395362}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 96.95001, y: 134.20001}
+  m_SizeDelta: {x: -505, y: -313.3}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &998909098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 998909096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 7ea2d3129e91d4dc49d50b7f5f05b9ef, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &998909099
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 998909096}
 --- !u!1001 &1029747667
 Prefab:
   m_ObjectHideFlags: 0
@@ -2142,6 +2225,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 520066537}
+  - {fileID: 998909097}
   m_Father: {fileID: 632354471}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
