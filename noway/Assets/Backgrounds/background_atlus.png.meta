@@ -6,6 +6,7 @@ TextureImporter:
     21300002: large_can
     21300004: smol_can
     21300006: goal
+    21300008: noway
   externalObjects: {}
   serializedVersion: 5
   mipmaps:
@@ -165,13 +166,33 @@ TextureImporter:
         width: 536
         height: 605
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 20d8e82786115fd43baad202ddb1068e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: noway
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 673
+        width: 478
+        height: 613
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0838b9059e74f064a81cd57ca09b308c
       vertices: []
       indices: 
       edges: []
