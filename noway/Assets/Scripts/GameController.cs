@@ -5,16 +5,21 @@ using UnityEngine.UI;
 using System.Diagnostics;
 using System;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
+
 
 
 [System.Serializable]
 public class ChapCollectedEvent : UnityEvent<GameObject, Collision2D> {}
 public class ComboBrokenEvent : UnityEvent {}
+public class GoalReachedEvent : UnityEvent {}
 
 public class GameController : MonoBehaviour {
 	
 	public static ChapCollectedEvent ChapCollected = new ChapCollectedEvent();
 	public static ComboBrokenEvent ComboBroken = new ComboBrokenEvent();
+	public static GoalReachedEvent GoalReached = new GoalReachedEvent();
+
 
 	public Text hudText;
 	public Text playerSpeechBubble;
@@ -30,11 +35,20 @@ public class GameController : MonoBehaviour {
 
 		ChapCollected.AddListener(addChap);
 		ComboBroken.AddListener(zeroCombo);
+		GoalReached.AddListener(goalReached);
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		setHUDText();
+	}
+
+	public void nextLevel() {
+		SceneManager.LoadScene(SceneManager.GetSceneAt(0).name);
+	}
+
+	void goalReached() {
+		gameTime.Stop();
 	}
 
 	void zeroCombo() {
