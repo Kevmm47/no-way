@@ -52,17 +52,7 @@ public class GameController : MonoBehaviour {
 	}
 
 	void zeroCombo() {
-		if (combo > 1) {
-			StartCoroutine(comboBreak());
-		}
 		combo = 0;
-	}
-
-	IEnumerator comboBreak() {
-		playerSpeechBubble.text = "No Way!";
-		yield return new WaitForSeconds(2f);
-		playerSpeechBubble.text = "";
-
 	}
 
 	void addChap(GameObject chap, Collision2D col) {
