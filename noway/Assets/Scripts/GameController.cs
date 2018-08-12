@@ -21,8 +21,11 @@ public class GameController : MonoBehaviour {
 	public static GoalReachedEvent GoalReached = new GoalReachedEvent();
 
 
-	public Text hudText;
-	public Text playerSpeechBubble;
+	public Text hudGt;
+    public Text hudChaps;
+    public Text hudCombo;
+    public Text hudCombo3d;
+    public Text playerSpeechBubble;
 	public Stopwatch gameTime = new Stopwatch();
 	public int chapsCollected = 0;
 	public int combo = 0;
@@ -62,11 +65,15 @@ public class GameController : MonoBehaviour {
 
 	void setHUDText() {
 		TimeSpan ts = gameTime.Elapsed;
-		string curGT = string.Format("Elapsed Time: {0:00}.{1:00}", ts.Seconds, ts.Milliseconds);
-		string chapsCol = string.Format("Chaps: {0}/{1}", chapsCollected, totalChaps);
-		string curCombo = string.Format("Combo: {0}", combo);
+		string curGT = string.Format("{0:00}.{1:00}", ts.Seconds, ts.Milliseconds);
+		string chapsCol = string.Format("{0}/{1}", chapsCollected, totalChaps);
+		string curCombo = string.Format(" x{0}", combo);
 
-		string text = string.Format("{0}\n{1}\n{2}\n", curGT, chapsCol, curCombo);
-		hudText.text = text;
-	}
+		//string text = string.Format("{0}\n{1}\n{2}\n", curGT, chapsCol, curCombo);
+		//hudText.text = text;
+        hudGt.text = curGT;
+        hudChaps.text = chapsCol;
+        hudCombo.text = curCombo;
+        hudCombo3d.text = curCombo;
+    }
 }
