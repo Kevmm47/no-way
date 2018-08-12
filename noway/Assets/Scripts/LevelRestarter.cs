@@ -23,7 +23,7 @@ public class LevelRestarter: MonoBehaviour {
 	
 		//iconLocation = .rectTransform.TransformPoint.
 		if (icon != null) {
-			levelRestartText = icon.GetComponent<Text>();
+			//levelRestartText = icon.GetComponent<Text>();
 			//iconImage = icon.GetComponent<Image>();
 			//colorValue = iconImage.color;
 		}
@@ -37,13 +37,13 @@ public class LevelRestarter: MonoBehaviour {
 		float timePassed = gameTime.Elapsed.Seconds + gameTime.Elapsed.Milliseconds / 1000f;
 		if (restart && !gameTime.IsRunning) {
 			gameTime.Start();
-			levelRestartText.text = "Restarting...";
+			//levelRestartText.text = "Restarting...";
 			//setImageAlpha(255f);
 			//iconImage.CrossFadeAlpha(0.1f, 1.0f, false);
 		} else if (restart && gameTime.IsRunning) {
 			// check if over 2 seconds
 			if(timePassed > secondsToRestart) {
-				levelRestartText.text = "Restarting Now!";
+				//levelRestartText.text = "Restarting Now!";
                 SceneManager.LoadScene(SceneManager.GetSceneAt(0).name);
 				//UnityEngine.Debug.Log("Restarting!!");
 			} else {
@@ -55,7 +55,7 @@ public class LevelRestarter: MonoBehaviour {
 		} else if (!restart && gameTime.IsRunning) {
 			gameTime.Stop();
 			gameTime.Reset();
-			levelRestartText.text = "";
+			//levelRestartText.text = "";
 
 			//setImageAlpha(0f);
 			//UnityEngine.Debug.Log("Stopped!");
